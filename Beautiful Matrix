@@ -1,0 +1,7 @@
+for i in range(5):
+    arr=list(map(int,input().split()))
+    for j in range(5):
+        if arr[j]:
+            x=i
+            y=j
+print(max(x-2,2-x)+max(y-2,2-y))
