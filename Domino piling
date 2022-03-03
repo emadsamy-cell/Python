@@ -1,0 +1,4 @@
+n,m=map(int,input().split())
+ans=n*(int)(m/2)
+ans+=(m%2)*(int)(n/2)
+print(int(ans))
