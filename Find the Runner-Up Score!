@@ -1,0 +1,10 @@
+if __name__ == '__main__':
+    n = int(input())
+    arr = list(map(int, input().split()))
+    arr.sort()
+    max1=arr[n-1]
+    for i in range(n):
+        if arr[i]==max1:
+            break
+        winner=arr[i]
+    print(winner) 
